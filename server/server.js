@@ -4,6 +4,7 @@ const cors = require('cors');
 const sequelize = require('./dbConnect/pgDB')
 const employeeRouter = require('./routes/index');
 const EmployeeModel = require('./models/employeSeque');
+require('dotenv').config();
 
 
 

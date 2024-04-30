@@ -1,6 +1,8 @@
 // Import Sequelize library and data types
 const { Sequelize, DataTypes } = require('sequelize');
 const sequelize = require('../dbConnect/pgDB');
+require('dotenv').config();
+
 
 // Define the Employee model
 const Employee = sequelize.define('Employee', {
