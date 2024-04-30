@@ -45,26 +45,3 @@ const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-
-
-
-
-
-
-// // Connect to the database
-// client.connect()
-//   .then(() => {
-//     console.log('Connected to PostgreSQL database');
-//       // Call the insertData function after connecting to the database
-//       insertData();
-//   })
-  
-//   .catch((err) => {
-//     console.error('Error connecting to the database:', err);
-//   });
-
-// // Start the server
-// const PORT = process.env.PORT || 3000;
-// app.listen(PORT, () => {
-//   console.log(`Server is running on port ${PORT}`);
-// });
