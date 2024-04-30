@@ -1,0 +1,73 @@
+.dashboard {
+    margin: 20px;
+    color: #38b407;
+}
+.dashboard .delete-icon-button{
+    color: #ed0a0a;
+}
+.dashboard .edit-icon-button{
+    color: #0669f4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #f20606;
+    padding: 8px;
+}
+
+th {
+    background-color: #f3e4f3;
+    text-align: left;
+}
+.dashboard-toolbar {
+    display: flex;
+    justify-content: space-between; /* Align items with space between */
+    align-items: center; /* Center items vertically */
+}
+
+.dashboard-toolbar .add-icon-button{
+    margin-left: auto;
+    color: #38b407; /* Move the button to the right by pushing it to the end of the flex container */
+}
+@media (max-width: 768px) {
+    .dashboard-toolbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 768px) {
+    .dashboard-toolbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .add-icon-button {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dashboard-toolbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .add-icon-button {
+        margin-top: 10px;
+    }
+
+    .dashboard-table {
+        overflow-x: auto;
+        width: 100%;
+    }
+
+    .dashboard-table th,
+    .dashboard-table td {
+        white-space: nowrap;
+    }
+}

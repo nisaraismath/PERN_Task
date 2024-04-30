@@ -1,0 +1,68 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245 0 87 / 18%);
+    height: 60em;
+  }
+  
+  .form {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 16px; /* You can use your preferred spacing value */
+    display: grid;
+    height: 30rem;
+    
+  }
+  
+  .input {
+    margin-bottom: 16px;
+    display: grid;
+    height: 1.7em;
+    background-color: rgba(245, 0, 86, 0);
+    /* border-radius: 0rem; */
+  }
+  
+  .select {
+    margin-bottom: 16px;
+  }
+  /* .option{
+    height: auto;
+    overflow: hidden;
+    min-height: 2.1876em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  } */
+  
+ .root .button {
+    margin-top: 16px;
+    gap: 3rem;
+    display:grid;
+    background-color: #c51162;
+    width: 6rem;
+  }
+.date-input{
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 4.1876em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+    justify-content: flex-end;
+}
+.btn{
+  margin-top: 16px;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
